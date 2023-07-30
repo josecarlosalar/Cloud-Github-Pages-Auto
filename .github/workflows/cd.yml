@@ -30,4 +30,4 @@ jobs:
           run: npm run build
     
         - name: Deploy
-          run: npm run deploy
+          run: npm run deploy -- -r git@github.com:https://github.com/josecarlosalar/Lemoncode-Lab-Cloud-Github-Pages-Auto.git
